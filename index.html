@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Metadata for character set and viewport -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Title of the webpage -->
+    <title>TO-DO-LIST</title>
+    <!-- Link to external stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Main container for the todo app -->
+    <div class="container">
+      <div class="username">
+        <h1>Made by Gopal Khandelwal</h1>
+      </div>
+      <!-- Todo app section -->
+      <div class="todo-app">
+        <!-- Header with app title and icon -->
+        <h2>To-Do List <img src="images/icon.png" alt="" srcset="" /></h2>
+        <!-- Input row for adding tasks -->
+        <div class="row">
+          <!-- Input box for task entry -->
+          <input type="text" id="input-Box" placeholder="Add Your Text" />
+          <!-- Button to add a new task -->
+          <button onclick="addTask()">Add</button>
+        </div>
+        <!-- Additional info section -->
+        <div class="info">
+          <!-- Information about completing all tasks -->
+          <p>Complete all task</p>
+          <!-- Information about clearing completed tasks -->
+          <p>Clear completed</p>
+        </div>
+        <!-- List container for displaying tasks -->
+        <ul id="list-container"></ul>
+        <!-- Horizontal line separator -->
+        <hr />
+        <!-- Task counter display -->
+        <div class="TaskCounter"></div>
+      </div>
+    </div>
+
+    <!-- Script tag to link external JavaScript file -->
+    <script src="script.js"></script>
+  </body>
+</html>
